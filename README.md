@@ -1,4 +1,4 @@
 # newrepository
 первый тестовый репозиторий
 
-Сcылка http://pashenkoinnav.github.io/homework
+Сcылка http://pashenkoinnav.github.io/homwork
