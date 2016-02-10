@@ -12,10 +12,11 @@ div {
     box-shadow: 0 0 5px;
 }
 h1 {
-    padding-left: 130px;
+    text-align: center;
 }
 img {
-    margin-left: 200px;
+    display: block;
+    margin: auto;
 }
 .line {
     height: 4px;
