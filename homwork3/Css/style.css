@@ -6,7 +6,7 @@ body {
     src: url(../font/OpenSans-Regular.ttf);
 }
 .padge {
-    width: 1060px;
+    width: 980px;
     height: 950px;
     margin-left: 142px;
     padding-left: 50px;
@@ -79,7 +79,7 @@ body {
 
 p {
    margin-left: 330px;
-    margin-right: 115px;
+    margin-right: 37px;
     margin-bottom: 60px;
     font-family: OpenSans-Regular;
     font-size: 13px;
