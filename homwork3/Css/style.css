@@ -6,6 +6,7 @@ body {
     src: url(../font/OpenSans-Regular.ttf);
 }
 .padge {
+    margin: 0 auto;
     width: 980px;
     height: 950px;
     margin-left: 142px;
@@ -34,7 +35,7 @@ body {
     font-family: OpenSans-Regular;
     font-size: 15px;
    } 
-.button {
+.upmenu:hover {
     display: inline-block;
     width: 45px;
     height: 20px;   
@@ -63,7 +64,7 @@ body {
     font-size:  13px;
     color: #656363;
 }
-.hover {
+.left:hover {
     padding-left: 35px;
     background-color: #f9f9f9;
 }
@@ -99,8 +100,11 @@ color: #2c2c2c;
     font-family: OpenSans-Regular;
     font-size: 13px;   
 }
-.decor{
+.bottommenu:hover{
     text-decoration: underline;
+}
+.autor:hover{
+    text-decoration: none;
 }
 .autor {
     padding:0 5px;
