@@ -1,0 +1,192 @@
+body {   
+  background-color: #0c739f;
+  background-image: url(../img/bacground.jpg);
+  background-repeat: repeat-x;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  height: 1311px;
+  z-index: 7;
+}
+@font-face {
+    font-family: "tahoma";
+    src: url(../font/tahoma.ttf);
+}
+.page {
+    margin: 0 auto;
+  background-image: url("../img/page.png");
+  position: relative;  
+  width: 1010px;
+  height: 991px;
+  z-index: 1;
+    box-shadow: 10px 0 10px -10px #0b6075 inset, -10px 0 10px -10px #0b6075 inset;
+}
+  
+.logo {
+  background-image: url("logo.png");
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  width: 310px;
+  height: 164px;
+  z-index: 5;
+}
+.contact{
+    position: absolute;
+    left: 844px;
+    top: 11px;
+    color: rgba(18, 138, 167, 0.8);
+    font-family: "tahoma";
+    font-style: oblique;
+    font-size: 13px;
+    line-height: 1.5;
+  font-weight: 500;
+}
+
+.con{
+font-weight: 900;
+line-height: 2;
+
+}
+.flag li{
+float:left;
+position: relative;
+    top: 110px;
+    left: 635px;
+margin-left: 15px;
+overflow: hidden;
+    z-index: 100;}
+.text li{
+    float: left;
+    position: relative;
+    top: 155px;
+    left: 305px;
+    margin:0 5px;
+  font-family: "tahoma";
+    font-size: 10px;
+  color: rgb(18, 138, 167);
+  text-decoration: underline;
+}
+.nepal{
+    padding:0 0 0 20px
+}
+.tibet{
+ padding:0 18px;  
+    
+}
+.sri-lanka{
+    padding-left: 8px;  
+}   
+.foto{   
+    position: relative;
+    margin-top:129px;
+    margin-left: 6px;
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;    
+} 
+.panel{
+    height: 30px;
+    width: 1002px;
+    margin-left: 5px;
+    background: #303030;
+    border-bottom: 1px solid #000000;
+}
+.upmenu li{
+    float: left;
+    text-align:center;
+    width: 143px;
+    padding: 5px 0px 0px 0;
+    position: relative;
+    cursor: pointer;
+    z-index: 10;    
+    color: white;
+    font-family: "tahoma";
+    font-size: 14px;
+}
+ul li ul {  display: none;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    height: auto;
+    margin: 0 15px;
+    padding-left: 5px;
+    width: 130px;
+    background: #303030;
+    border-top: 1px solid #000000;
+}
+ul li ul li {
+    float: none;
+display: block;
+ text-align-last: left;
+      
+}
+ul li:hover ul {
+display: block;
+}
+.menu {
+    background-image: url(../img/fon2.png);
+    margin-left: 5px;
+    width: 1002px;
+    left: 7px;
+    height: auto;
+    float: left;
+
+}
+.info{
+    width: 20%;
+    float: left;
+    height: inherit;
+}
+   
+.contaner{
+    width: 60%;
+    float: left;
+}    
+.news{
+    width: 20%;
+    float: right;
+
+}
+.Inf{
+    margin-top: 10px;
+    text-align: center;
+    font-family: "tahoma";
+    font-size: 18px;
+    color: #424c43;
+    
+}
+.News{
+    text-align: center;
+    margin-top: 10px;
+    font-family: "tahoma";
+    font-size: 18px;
+    color: #424c43;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: "tahoma";
+    font-size: 14px;
+    line-height: 1.714;
+    color: #7d837f;
+    
+}
+.infotext{
+    padding-left: 15px;
+}
+.newstext{
+    padding-left: 5px;
+}
+
+    
+.autor{
+  font-size: 14px;
+  font-family: "Tahoma";
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.2;
+  text-align: left;
+    position: absolute;
+  left: 550px;
+  top: 990px;
+  z-index: 3;
+}
