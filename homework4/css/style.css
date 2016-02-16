@@ -107,6 +107,7 @@ a {
     background-position: 50% 0;
     width: 54px;
     height: 20px;
+    text-align: center;
     padding-top: 40px;  
     position: absolute;  
 } 
