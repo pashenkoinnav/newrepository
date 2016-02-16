@@ -64,6 +64,7 @@ a {
 .india{
     background-image: url(../img/india.png);
     background-repeat: no-repeat;
+    background-position:top center;
     width: 44px;
     height: 20px;
     text-align: center;
@@ -73,6 +74,7 @@ a {
 .nepal{
     background-image: url(../img/nepal.png);
     background-repeat: no-repeat;
+    background-position:top center;
     width: 44px;
     height: 20px;
     text-align: center;
@@ -82,6 +84,7 @@ a {
 .tibet{
  background-image: url(../img/tibet.png);
     background-repeat: no-repeat;
+    background-position:top center;
     width: 44px;
     height: 20px;
     text-align: center;
@@ -91,6 +94,7 @@ a {
 .bhutan{
     background-image: url(../img/bhutan.png);
     background-repeat: no-repeat;
+    background-position:top center;
     width: 44px;
     height: 20px;
     text-align: center;
@@ -100,6 +104,7 @@ a {
 .sri-lanka{
    background-image: url(../img/sri-lanka.png);
     background-repeat: no-repeat;
+    background-position:top center;
     width: 54px;
     height: 20px;
     padding-top: 40px;  
@@ -108,6 +113,7 @@ a {
 .maldives{
     background-image: url(../img/maldives.png);
     background-repeat: no-repeat;
+    background-position:top center;
     width: 44px;
     height: 20px;
     text-align: center;
