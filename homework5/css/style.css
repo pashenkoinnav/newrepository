@@ -62,7 +62,7 @@ ul li{
     position: relative;  
     bottom: 4px;
     left: 4px;
-    background-image: url(/img/flag.png);
+    background-image: url(../img/flag.png);
     background-repeat: no-repeat;
      display: block;  
     height: 30px;  
@@ -103,7 +103,7 @@ a{
     height: 35px;
     border: none;
     border-radius: 6px;
-    background-image: url(/img/facebook.png);
+    background-image: url(../img/facebook.png);
     cursor: pointer;
 }
 .ou:before {
@@ -113,7 +113,7 @@ a{
     float: left;  
     position: relative;  
     top:  37px;
-    background-image: url(/img/linia.png);
+    background-image: url(../img/linia.png);
     background-repeat: no-repeat;  
     height: 30px;  
     width: 500px;  
@@ -126,7 +126,7 @@ a{
     position: relative;  
     bottom:9px;
     left: 156px;
-    background-image: url(/img/linia.png);
+    background-image: url(../img/linia.png);
     background-repeat: no-repeat;
     height: 1px;
     display: block;
