@@ -167,8 +167,12 @@ a{
 .pas {
     margin-bottom: 20px;
 }
+.check {
+    vertical-align: middle;
+    margin-left: auto;
+}
 span {
-  margin: 0px 50px 40px 1px;
+    margin: 0px 50px 40px 1px;
     font-family: "Helvetica Neue Regular";
     font-size: 14px;   
     }
