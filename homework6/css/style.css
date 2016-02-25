@@ -479,7 +479,7 @@ h3:before {
 .shinright{
     width: 120px;
     margin-left: 25px;
-    
+    cursor: pointer;
 }
 input[type=checkbox]{
     margin-left: 35px;
