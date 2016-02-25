@@ -140,12 +140,12 @@ a {
 }
 .car{
     margin-left: 45px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 .panel{
     display: inline-block;
     width: 910px;
-    height: 30px;
+    height: 32px;
     position: relative;
     left: 45px;
     background-image: linear-gradient( #464d54, #17191b, #040405);
@@ -155,6 +155,7 @@ a {
     margin-bottom: 160px;
 }
 .textpanel{
+    margin-top: 2px;
     width: 550px;
     margin-left: 122px;
 }
@@ -164,22 +165,23 @@ a {
     font-family: "lusida";
     font-size: 14px;
     cursor: pointer;
-     
+    height: 28px;
+    line-height: 28px; 
 }
 .hovcom{
-    padding: 7px 20px 7px 22px;
+    padding: 0px 22px;
 }
 .hovopl{
-    padding: 7px 14px;
+    padding: 0px 14px;
 }
 .hovdost{
-    padding: 7px 12px;
+    padding: 0px 12px;
 }
 .hovst{
-    padding: 7px 15px;
+    padding: 0px 15px;
 }
 .hovcon{
-    padding: 7px 10px;
+    padding: 0px 10px;
 }
 
 .textpanel li:hover{
@@ -199,14 +201,14 @@ a {
     
 }
 .tovar{
-    padding: 7px 15px ;
+    padding: 8px 15px ;
 }
 .tovar:before {
     content: " "; 
     text-align: center;    
     float: left;  
     position: relative;
-    top: -1px;
+    top: 0px;
     right: 4px;
     background-image: url(../img/koshik.png);
     background-position: center;
@@ -229,7 +231,7 @@ a {
 
 }
 .sum{
-    padding: 7px 3px;
+    padding: 8px 3px;
 }
 .sum:after{
     content: "0,00 грн"; 
@@ -255,8 +257,9 @@ a {
 
 h3 {
     width: 130px;
-    height: 14px;
-    padding: 7px 8px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0px 8px;
     margin-left: 4px;
     font-family: "Lusida";
     font-size: 14px;
@@ -270,7 +273,7 @@ h3:before {
     content: " "; 
     float: left;  
     position: relative;  
-    bottom: 3px;
+    bottom: -3px;
     right: 2px;
     display: block;
     border: 6px solid #0d375b;
@@ -285,10 +288,10 @@ h3:before {
     margin-bottom: 15px ;
     width: 175px;
     padding-left: 7px;
-    height: 15px;
+    height: 22px;
     font-family: "Lusida";
     font-size: 13px;
-    padding-top: 6px;
+    line-height: 22px;
     color: #114165;
     border: 1px solid #b6b6b6;
     border-radius: 20px;
@@ -300,7 +303,7 @@ h3:before {
     content: " "; 
     float: left;  
     position: relative;  
-    bottom: 6px;
+    bottom: 0px;
     right: 3px;
      display: block;
     border: 1px solid #0d375b;
@@ -494,10 +497,11 @@ input[type=checkbox]{
     
 }
 .disk{
-    margin-top: 6px;
+    margin-top: 9px;
     width: 120px;
-    height: 14px;
-    padding: 7px 8px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0px 8px;
     margin-left: 24px;
     font-family: "Lusida";
     font-size: 14px;
@@ -510,7 +514,7 @@ input[type=checkbox]{
     content: " "; 
     float: left;  
     position: relative;  
-    bottom: 3px;
+    bottom: -3px;
     right: 5px;
     display: block;
     border: 6px solid #0d375b;
@@ -529,14 +533,14 @@ input[type=checkbox]{
     display:inline-block;
     margin: 17px 34px;
     width: 82px;
-    height: 18px;
+    height: 23px;
     background-image: linear-gradient( #1c5e7e, #0e385d);
     color: #e5e9ea;
     border-radius: 15px;
     text-align: center;
     font-family: "Arial";
     font-size: 11px;
-    padding-top: 5PX;
+    line-height: 23px;
     cursor: pointer;
     letter-spacing: 0.6px;
     box-shadow: 1px 2px 2px 2px #c0c0c0;
