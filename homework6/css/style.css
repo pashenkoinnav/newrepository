@@ -58,6 +58,7 @@ body{
     height: 27px;
     background-image: linear-gradient( #1f6787, #0e375b);
     border-radius: 5px;
+    box-shadow: 1px 2px 2px 2px #c0c0c0;
 }
 .uppan li{
     display:inline-block;
@@ -150,7 +151,7 @@ a {
     background-image: linear-gradient( #464d54, #17191b, #040405);
     border: 1px solid #2c345a;
     border-radius: 6px; 
-    box-shadow:2px 0px 5px 0px #4e5474;
+    box-shadow: 1px 2px 2px 2px #c0c0c0;
     margin-bottom: 160px;
 }
 .textpanel{
@@ -261,8 +262,8 @@ h3 {
     font-size: 14px;
     color: #114165;
     border: 1px solid #7b898f;
-    border-radius: 20px
-    
+    border-radius: 20px;
+    cursor: pointer;
     
 }
 h3:before {
@@ -293,6 +294,7 @@ h3:before {
     border-radius: 20px;
     box-shadow:1px 1px 2px 0px #4e5474;
     word-spacing: -3px;
+    cursor: pointer;
 }
 .had:before {
     content: " "; 
@@ -370,6 +372,7 @@ h3:before {
     font-size: 15px;
     color: #206988;
     padding-left: 9px;
+    cursor: pointer;
 }
 .str1{
     padding-top: 2px;
@@ -454,6 +457,7 @@ h3:before {
     border-radius: 20px;
     box-shadow:1px 1px 2px 0px #4e5474;
     word-spacing: -3px;
+    cursor: pointer;
 }
 .hadr:before {
     content: " "; 
@@ -535,6 +539,7 @@ input[type=checkbox]{
     padding-top: 5PX;
     cursor: pointer;
     letter-spacing: 0.6px;
+    box-shadow: 1px 2px 2px 2px #c0c0c0;
 } 
 .logbrend{
     display: inline-block;
