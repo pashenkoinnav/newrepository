@@ -257,8 +257,8 @@ a {
 
 h3 {
     width: 130px;
-    height: 28px;
-    line-height: 28px;
+    height: 27px;
+    line-height: 27px;
     padding: 0px 8px;
     margin-left: 4px;
     font-family: "Lusida";
@@ -273,7 +273,7 @@ h3:before {
     content: " "; 
     float: left;  
     position: relative;  
-    bottom: -3px;
+    bottom: -2px;
     right: 2px;
     display: block;
     border: 6px solid #0d375b;
@@ -451,10 +451,10 @@ h3:before {
     margin-bottom: 15px ;
     width: 174px;
     padding-left: 6px;
-    height: 17px;
+    height: 24px;
     font-family: "Lusida";
     font-size: 14px;
-    padding-top: 6px;
+    line-height: 24px;
     color: #114165;
     border: 1px solid #b6b6b6;
     border-radius: 20px;
@@ -466,7 +466,7 @@ h3:before {
     content: " "; 
     float: left;  
     position: relative;  
-    bottom: 6px;
+    bottom: -1px;
     right: 3px;
      display: block;
     border: 1px solid #0d375b;
@@ -497,10 +497,10 @@ input[type=checkbox]{
     
 }
 .disk{
-    margin-top: 9px;
+    margin-top: 8px;
     width: 120px;
-    height: 28px;
-    line-height: 28px;
+    height: 27px;
+    line-height: 27px;
     padding: 0px 8px;
     margin-left: 24px;
     font-family: "Lusida";
@@ -533,14 +533,14 @@ input[type=checkbox]{
     display:inline-block;
     margin: 17px 34px;
     width: 82px;
-    height: 23px;
+    height: 24px;
     background-image: linear-gradient( #1c5e7e, #0e385d);
     color: #e5e9ea;
     border-radius: 15px;
     text-align: center;
     font-family: "Arial";
     font-size: 11px;
-    line-height: 23px;
+    line-height: 24px;
     cursor: pointer;
     letter-spacing: 0.6px;
     box-shadow: 1px 2px 2px 2px #c0c0c0;
