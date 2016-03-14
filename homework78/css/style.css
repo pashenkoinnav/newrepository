@@ -180,9 +180,9 @@ header{
 /*320*/
 @media (max-width: 320px){
   .header-slider .header-slider-polosa{
-      margin-top: 18px;
+      margin-top: 40px;
       margin-bottom: 160px;
-      height: 245px;
+      height: 200px;
       position: relative;
     }
 }
