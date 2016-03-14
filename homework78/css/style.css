@@ -180,8 +180,8 @@ header{
 /*320*/
 @media (max-width: 320px){
   .header-slider .header-slider-polosa{
-      margin-top: 140px;
-      margin-bottom: 160px;
+      margin-top: 18px;
+      margin-bottom: 1760px;
       height: 245px;
     }
 }
@@ -393,7 +393,7 @@ header{
   }
   .cirkl_1{
     left: 30%;
-    top:75%;
+    top:50%;
     }
 }
 
