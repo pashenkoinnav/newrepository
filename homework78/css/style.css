@@ -572,7 +572,7 @@ header{
     width: 200px;
     display: inline-block;
     position: relative;
-    margin-left:5%;
+    margin-left:10%;
     margin-top: 30px;
      font-family:'OpenSans Regular';
     font-size: 16px;
@@ -585,6 +585,8 @@ header{
   }
   .more{
     display: block;
+    font-family: 'league Gothicregular';
+      font-size: 24px
     margin-top: 20px;
   }
   .w320{
