@@ -151,7 +151,7 @@ header{
   .menu-item480 .menu-list ul{
     display: none;
     position: absolute;
-    background-color: rgba(38, 52, 62, 0.9);
+    background-color: rgba(61, 48, 69, 0.8);
     border-radius: 15px;
     left: 20%;     /*left: 115px;*/
     top: 29px;
@@ -383,11 +383,18 @@ header{
     line-height: 24px;
 
   }
+  .tr{
+        display: none;
+    }
   .slider-subtitle{
     font-size: 18px;
     margin-top: 10px;
-  
+    width: 210px;
   }
+  .cirkl_1{
+    left: 40%;
+    top:75%;
+    }
 }
 
 /*max768*/
@@ -553,6 +560,10 @@ header{
 }
 /*320*/
 @media (max-width: 320px){
+	.purple-block{
+    background-image: linear-gradient(#734f81,#33253a);
+ 
+	}
   .purple-block-all{
     width: 100%;
     margin: 0 auto;
@@ -570,6 +581,18 @@ header{
   }
   .w320{
     display: none;
+  }
+  .icon1:before{
+    top: 2px;
+    left: -50px;
+  }
+  .icon2:before{
+    top: 2px;
+    left: -50px;
+  }
+  .icon3:before{
+    top: 2px;
+    left: -50px;
   }
 }
 /*769*/
@@ -819,7 +842,7 @@ header{
     }
     
 }
-/*960 3*/
+/*960 */
 @media (min-width: 960px) {
   .avtor{
     height: 485px;
@@ -1029,6 +1052,24 @@ header{
   .avtor-slide-block-check{
     left: 25%;
   }
+  .w320{
+        display: none;
+    }
+    .avtor-line__icon1::before{
+ position: absolute;
+  left: -1px;
+  top: 45px;   
+    }
+    .avtor-line__icon2::before{
+  position: absolute;
+  left: -1px;
+  top: 105px;   
+    }
+    .avtor-line__icon3::before{
+  position: absolute;
+  left: -1px;
+  top: 170px;   
+    }
 }
 
 /*all*/
