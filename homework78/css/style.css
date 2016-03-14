@@ -155,7 +155,7 @@ header{
     border-radius: 15px;
     left: 20%;     /*left: 115px;*/
     top: 29px;
-    width: 245px;
+    width:60%;
     text-align: center;
     z-index: 22;
   }
@@ -392,7 +392,7 @@ header{
     width: 210px;
   }
   .cirkl_1{
-    left: 40%;
+    left: 30%;
     top:75%;
     }
 }
@@ -572,8 +572,16 @@ header{
     width: 200px;
     display: inline-block;
     position: relative;
-      margin:0 auto;
+    margin-left:5%;
     margin-top: 30px;
+     font-family:'OpenSans Regular';
+    font-size: 16px;
+  }
+  .purple-container-title{
+    color: white;
+    font-size: 24px;
+    line-height: 24px;
+  font-family: 'league Gothicregular';
   }
   .more{
     display: block;
@@ -1051,6 +1059,12 @@ header{
   }
   .avtor-slide-block-check{
     left: 25%;
+  }
+  .w768{
+    display: none;
+  }
+  .w_320{
+  	display: none;
   }
   .w320{
         display: none;
