@@ -7,3 +7,4 @@
 Ссылка на 7-8Дз http://pashenkoinnav.github.io/homework78
 Ссылка на 1_Js_Дз http://pashenkoinnav.github.io/homeworkJs1
 Ссылка на 2_Js_Дз http://pashenkoinnav.github.io/homeworkJs2
+Ссылка на 3-4_Js_Дз http://pashenkoinnav.github.io/homeworkJs4
