@@ -9,3 +9,4 @@
 Ссылка на 2_Js_Дз http://pashenkoinnav.github.io/homeworkJs2
 Ссылка на 3-4_Js_Дз http://pashenkoinnav.github.io/homeworkJs4
 Ссылка на 5-6_Js_Дз http://pashenkoinnav.github.io/homeworkJs6
+Ссылка на 5-6_Js_Дз http://pashenkoinnav.github.io/homework7-8
