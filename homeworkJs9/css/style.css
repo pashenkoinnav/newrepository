@@ -1,0 +1,90 @@
+body {
+    background: #F0EFE7;
+    margin: 0;
+    padding: 0;
+    font: 15px/1.5 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #4E443C;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+a {
+  color: #0388A6;
+}
+
+pre {
+  border:1px solid #000;
+  overflow-x:auto;
+  background: #222;
+  color: #fff;
+  text-shadow: none;
+}
+
+.wrapper {
+    max-width: 620px;
+    margin: auto;
+}
+.checkbox-wrapper{
+  width: 400px;
+  margin: 0 auto;
+}
+.checkjs{
+  float: left;
+  display: block;
+}
+.niceCheck {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../img/checkboxsprite.png);
+    overflow: hidden;
+}
+
+.niceChecked {
+
+    background-position: 0 -17px;
+}
+
+.niceCheck input {
+
+    margin-left: -100px;
+  }
+
+.niceCheckDisabled {
+   background-image: url(../img/checkboxsprite.png);
+
+}
+.checkcss{
+  display: block;
+  float: left;
+  margin-left: 100px;
+}
+.checkcss input[type=checkbox] {
+
+    position: absolute;
+
+    clip: rect(0, 0, 0, 0);
+}
+.checkcss label {
+    cursor: pointer;
+}
+.checkcss label:after {
+    content: " ";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(../img/checkboxsprite.png);
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+}
+.checkcss input[type=checkbox]:checked + label:after {
+background-position: 0 -17px;
+}
+
+.checkcss label:hover:after {
+background-position: 0 -34px;
+}
+.checkcss input[type=checkbox]:checked + label:hover:after {
+background-position: 0 -51px;
+}
