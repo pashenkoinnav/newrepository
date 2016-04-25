@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> homework12 </title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="js/MyCarousel.js"></script>
+  <script src="js/template.js"> </script>
+<script src="js/script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="carousel-arrow-left"> <span>Влево</span></div>
+      <nav>
+       <ul class="carousel-list">
+        <li class="carousel-element"> <img src="img/bergman.jpg" alt="rosa" /> <p>сорт Бергман</p> </li>
+        <li class="carousel-element"> <img src="img/kimono.jpg" alt="rosa" /><p>сорт Кимоно</p></li>
+        <li class="carousel-element"> <img src="img/blek.jpg" alt="rosa" /><p>сорт Баккара</p></li>
+        <li class="carousel-element"> <img src="img/wite4.jpg" alt="rosa" /><p>сорт Айсберг</p></li>
+        <li class="carousel-element"> <img src="img/farah.jpg" alt="rosa"/><p>
+        сорт Фарах</p></li>
+        <li class="carousel-element"> <img src="img/blu.jpg" alt="rosa"/><p>сорт Майнзер</p></li>
+        <li class="carousel-element"> <img src="img/utersen.jpg" alt="rosa"/ /><p>сорт Ютерсен</p></li>
+        <li class="carousel-element"> <img src="img/bonika.jpg" alt="rosa" /><p>сорт Боника</p></li>
+        <li class="carousel-element"> <img src="img/chipedall.jpg" alt="rosa" /><p>Чиппендейл</p></li>
+        <li class="carousel-element"> <img src="img/simpati.jpg" alt="rosa" /><p>сорт Симпати</p></li>
+        <li class="carousel-element"> <img src="img/tomas.jpg" alt="rosa" /><p>сорт Томас</p></li>
+        <li class="carousel-element"> <img src="img/shekspir.jpg" alt="rosa" /><p>сорт Шекспир</p></li>
+        <li class="carousel-element"> <img src="img/bergman.jpg" alt="rosa" /> <p>сорт Бергман</p> </li>
+        <li class="carousel-element"> <img src="img/kimono.jpg" alt="rosa" /><p>сорт Кимоно</p></li>
+        <li class="carousel-element"> <img src="img/blek.jpg" alt="rosa" /><p>сорт Баккара</p></li>
+        <li class="carousel-element"> <img src="img/wite4.jpg" alt="rosa" /><p>сорт Айсберг</p></li>
+        <li class="carousel-element"> <img src="img/farah.jpg" alt="rosa"/><p>
+        сорт Фарах</p></li>
+        <li class="carousel-element"> <img src="img/blu.jpg" alt="rosa"/><p>сорт Майнзер</p></li>
+        <li class="carousel-element"> <img src="img/utersen.jpg" alt="rosa"/ /><p>сорт Ютерсен</p></li>
+        <li class="carousel-element"> <img src="img/bonika.jpg" alt="rosa" /><p>сорт Боника</p></li>
+        <li class="carousel-element"> <img src="img/chipedall.jpg" alt="rosa" /><p>Чиппендейл</p></li>
+        <li class="carousel-element"> <img src="img/simpati.jpg" alt="rosa" /><p>сорт Симпати</p></li>
+        <li class="carousel-element"> <img src="img/tomas.jpg" alt="rosa" /><p>сорт Томас</p></li>
+        <li class="carousel-element"> <img src="img/shekspir.jpg" alt="rosa" /><p>сорт Шекспир</p></li>
+
+      </ul>
+    </nav>
+    <div class="carousel-arrow-right"> <span>Вправо</span></div>
+    </div>
+    <script type="text/template" id="task">
+		<div class="wrapper">
+			<h1><%= data[0].title %></h1>
+			<img class="photo" src="<%= data[0].content %>" alt="photo">
+			<% for (var i = 1; i < data.length; i++) { %>
+
+				<h4><%= data[i].title %></h4>
+				<ul>
+					<% for (var j = 0; j < data[i].content.length; j++) { %>
+						<li>
+							<%= data[i].content[j] %>
+						</li>
+						<% }; %>
+				</ul>
+				<hr>
+
+				<% }; %>
+		</div>
+	</script>
+
+</body>
+</html>
